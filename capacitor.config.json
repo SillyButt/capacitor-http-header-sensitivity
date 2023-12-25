@@ -1,0 +1,18 @@
+{
+  "appId": "com.example.app",
+  "appName": "Capacitor Http Local Type Bug",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  },
+  "server": {
+    "cleartext": true,
+    "hostname": "192.168.100.3:3000"
+  }
+}
